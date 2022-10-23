@@ -1,6 +1,6 @@
 # The Bouncy World Engine
 
-The Bouncy World Engine is a rust-lang application that allows for defined entities to bounce around a defined world. It starts as just a black box bouncing alone in a white world but can quickly grow into something quite creative by just using the [configuration system]() and the [world save system](). Check out some of the [examples]() listed in the Source code to get some inspiration.
+The Bouncy World Engine is a rust-lang application that allows for defined entities to bounce around a defined world. It starts as just a black box bouncing alone in a white world but can quickly grow into something quite creative by just using the [configuration system](https://github.com/ChrWalte/Bouncy-World#configuration-system) and the [world save system](https://github.com/ChrWalte/Bouncy-World#world-save-system). Check out some of the [examples](https://github.com/ChrWalte/Bouncy-World/tree/main/examples) listed in the Source code to get some inspiration.
 
 ## Installing The Bouncy World Engine
 
@@ -8,11 +8,11 @@ There are a few ways to install The Bouncy World Engine, either downloading the 
 
 ### Installing from GitHub Releases
 
-Every release under the [GitHub Releases]() section contains the current source code and the built binary. Install the binary or executable to run this application on a Windows Intel Based x64 System.
+Every release under the [GitHub Releases](https://github.com/ChrWalte/Bouncy-World/releases/) section contains the current source code and the built binary. Install the binary or executable to run this application on a Windows Intel Based x64 System.
 
 ## Running The Bouncy World Engine
 
-Running The Bouncy World Engine will start a default, lonely black box bouncing in a white world. This default configuration can be customized extensively through the [configuration system]() and [world save system]().
+Running The Bouncy World Engine will start a default, lonely black box bouncing in a white world. This default configuration can be customized extensively through the [configuration system](https://github.com/ChrWalte/Bouncy-World#configuration-system) and [world save system](https://github.com/ChrWalte/Bouncy-World#world-save-system).
 
 ### Running bouncy-world.exe
 
@@ -28,15 +28,13 @@ Running The Bouncy World Engine in the current directory:
 
 Running The Bouncy World Engine via the Source Code requires a few things:
 
-The source code must be downloaded locally. This can be done via [git](https://git-scm.com/), a Source Code Version Control, or directly downloaded via GitHub as a [compressed ZIP file]().
+The source code must be downloaded locally. This can be done via [git](https://git-scm.com/), a Source Code Version Control, or directly downloaded via GitHub as a [compressed ZIP file](https://github.com/ChrWalte/Bouncy-World/archive/refs/heads/main.zip).
 
 Cloning The Bouncy World Engine Source Code to a local directory:
 
 ```shell
 git clone ___
 ```
-
-[Download The Bouncy World Engine Source Code as a compressed ZIP file]().
 
 The [rust toolchain](https://www.rust-lang.org/tools/install) must be installed to build and run from the source code.
 Once the toolchain is installed, use `cargo` to build and run The Bouncy World Engine.
