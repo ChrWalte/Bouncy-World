@@ -1,0 +1,252 @@
+world:
+  width: 600
+  height: 400
+  world_type: Color
+  background_rgba_hex: ffffffff
+  entities:
+  # 27 random black boxes
+  - x_position: 401
+    y_position: 53
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 62
+    y_position: 225
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 460
+    y_position: 212
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 121
+    y_position: 164
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 379
+    y_position: 280
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 315
+    y_position: 268
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 505
+    y_position: 248
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 184
+    y_position: 342
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 301
+    y_position: 290
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 53
+    y_position: 233
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 214
+    y_position: 44
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 403
+    y_position: 99
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 434
+    y_position: 194
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 334
+    y_position: 170
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 433
+    y_position: 89
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 218
+    y_position: 312
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 34
+    y_position: 125
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 462
+    y_position: 314
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 352
+    y_position: 150
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 452
+    y_position: 344
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 222
+    y_position: 192
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 42
+    y_position: 30
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 108
+    y_position: 348
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 124
+    y_position: 82
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 310
+    y_position: 261
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 408
+    y_position: 308
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  - x_position: 188
+    y_position: 23
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: 000000ff
+    entity_type: !Box
+    - 50
+    - 50
+  # red box
+  - x_position: 5
+    y_position: 5
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: ff0000ff
+    entity_type: !Box
+    - 100
+    - 100
+  # green box
+  - x_position: 200
+    y_position: 195
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: 00ff00ff
+    entity_type: !Box
+    - 100
+    - 100
+  # blue box
+  - x_position: 400
+    y_position: 295
+    x_velocity: 5
+    y_velocity: -5
+    rgba_hex: 0000ffff
+    entity_type: !Box
+    - 100
+    - 100
+date_time_stamp: 2022-10-15T15.24.50
+bouncy_world_engine_version: 1.0.0

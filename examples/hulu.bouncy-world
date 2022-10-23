@@ -1,0 +1,17 @@
+world:
+  width: 800
+  height: 600
+  world_type: Color
+  background_rgba_hex: 000000ff
+  entities:
+  - x_position: 111
+    y_position: 225
+    x_velocity: -5
+    y_velocity: -5
+    rgba_hex: ffffffff
+    entity_type: !Image
+    - ./images/HULU-LOGO.png
+    - 150
+    - 50
+date_time_stamp: 2022-10-15T14.19.36
+bouncy_world_engine_version: 1.0.0

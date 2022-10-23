@@ -1,0 +1,32 @@
+world:
+  width: 400
+  height: 300
+  world_type: !Image
+  # space background:
+  - ./images/space.jpg
+  - 400
+  - 300
+  background_rgba_hex: 00ff00ff
+  entities:
+  # moon:
+  - x_position: 342
+    y_position: 55
+    x_velocity: -5
+    y_velocity: 5
+    rgba_hex: ffc0cbff
+    entity_type: !Image
+    - ./images/moon.png
+    - 13
+    - 13
+  # earth:
+  - x_position: 305
+    y_position: 89
+    x_velocity: 5
+    y_velocity: 5
+    rgba_hex: ffc0cbff
+    entity_type: !Image
+    - ./images/earth.png
+    - 50
+    - 49
+date_time_stamp: 2022-10-14T17.29.11
+bouncy_world_engine_version: 1.0.0

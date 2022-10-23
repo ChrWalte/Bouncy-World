@@ -1,0 +1,17 @@
+{
+  "is_debug_mode": false,
+  "world_width": 600,
+  "world_height": 400,
+  "world_color": "ffffffff",
+  "world_type": "Color",
+  "entity_count": 1,
+  "entity_color": "000000ff",
+  "entity_type": {
+    "Box": [
+      50,
+      50
+    ]
+  },
+  "entity_velocity": 5,
+  "bouncy_world_engine_version": "1.0.0"
+}

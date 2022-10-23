@@ -1,0 +1,116 @@
+world:
+  width: 600
+  height: 600
+  world_type: Color
+  background_rgba_hex: 000000ff
+  entities:
+  - x_position: 5
+    y_position: 220
+    x_velocity: 5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 55
+    y_position: 275
+    x_velocity: 5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 105
+    y_position: 330
+    x_velocity: 5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+  
+  - x_position: 220
+    y_position: 5
+    x_velocity: 0
+    y_velocity: 5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 275
+    y_position: 55
+    x_velocity: 0
+    y_velocity: 5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 330
+    y_position: 105
+    x_velocity: 0
+    y_velocity: 5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+  
+  - x_position: 545
+    y_position: 220
+    x_velocity: -5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 505
+    y_position: 275
+    x_velocity: -5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 455
+    y_position: 330
+    x_velocity: -5
+    y_velocity: 0
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+  
+  - x_position: 220
+    y_position: 545
+    x_velocity: 0
+    y_velocity: -5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 275
+    y_position: 505
+    x_velocity: 0
+    y_velocity: -5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+  - x_position: 330
+    y_position: 455
+    x_velocity: 0
+    y_velocity: -5
+    rgba_hex: ffffffff
+    entity_type: !Box
+    - 50
+    - 50
+
+date_time_stamp: 2022-10-15T14.40.15
+bouncy_world_engine_version: 1.0.0
