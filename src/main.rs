@@ -120,7 +120,7 @@ fn main() {
             // draw the current frame
             running_world_save
                 .world
-                .draw(pixels.get_frame(), &running_config, &running_images);
+                .draw(pixels.get_frame_mut(), &running_config, &running_images);
             pixels.render().expect("pixels failed to render");
 
             // redraw window and trigger event loop
