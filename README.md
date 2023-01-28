@@ -33,7 +33,7 @@ The source code must be downloaded locally. This can be done via [git](https://g
 Cloning The Bouncy World Engine Source Code to a local directory:
 
 ```shell
-git clone ___
+git clone https://github.com/ChrWalte/Bouncy-World.git
 ```
 
 The [rust toolchain](https://www.rust-lang.org/tools/install) must be installed to build and run from the source code.
