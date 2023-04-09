@@ -53,7 +53,7 @@ To see a list of available commands, run the `help` command:
 
 ```shell
 .\\bouncy-world.exe help
-The Bouncy World Engine - v1.0.0
+The Bouncy World Engine - v1.0.3
 
 Usage: bouncy-world.exe <COMMAND>
 
@@ -70,7 +70,7 @@ These Command Line Arguments can be used via cargo as well:
 
 ```shell
 cargo run --release -- help
-The Bouncy World Engine - v1.0.0
+The Bouncy World Engine - v1.0.3
 
 Usage: bouncy-world.exe <COMMAND>
 
@@ -104,7 +104,7 @@ Here is an example JSON configuration file:
 ```jsonc
 {
   // the version of The Bouncy World Engine that should be used for this configuration
-  "bouncy_world_engine_version": "1.0.0",
+  "bouncy_world_engine_version": "1.0.3",
   // for logging config and world information to the console (default: false)
   "is_debug_mode": false,
 
@@ -166,7 +166,7 @@ Here is an example YAML or YML configuration file:
 
 ```yaml
 # the version of The Bouncy World Engine that should be used for this configuration
-bouncy_world_engine_version: 1.0.0
+bouncy_world_engine_version: 1.0.3
 # for logging config and world information to the console (default: false)
 is_debug_mode: false
 
@@ -230,7 +230,7 @@ Loading from a world save file in The Bouncy World Engine is simple. Just pass i
 # date-time-stamp of when the world save was created
 date_time_stamp: 0001-01-01T01.01.01
 # the version of The Bouncy World Engine that should be used for this world save
-bouncy_world_engine_version: 1.0.0
+bouncy_world_engine_version: 1.0.3
 
 # the object world itself
 # the user gets a lot more control over the world and its entities
