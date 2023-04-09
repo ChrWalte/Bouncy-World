@@ -1,7 +1,7 @@
 [package]
 name = "bouncy-world"
 description = "The bouncy world engine allows for defined entities to bounce around a defined world. It starts as just a black box bouncing alone in a white world but can quickly grow into something quite creative by just using the configuration system and the world save system"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = ["Christopher Walters <chrwalte@protonmail.com>"]
 readme = "README.md"
@@ -14,9 +14,9 @@ categories = ["BouncyWorld", "pixels", "fltk"]
 
 [dependencies]
 # used to print pixels to the screen
-pixels = "0.11"
+pixels = "0.12"
 # used to show window application
-fltk = { version = "1.3", features = ["rwh05", "no-images", "no-pango"] }
+fltk = { version = "1.4", features = ["rwh05", "no-images", "no-pango"] }
 # used to generate some random data
 rand = "0.8"
 # used to convert string hex values to a u8 slice
