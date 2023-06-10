@@ -1,5 +1,9 @@
 # The Bouncy World Engine Change Log
 
+## Version 1.0.3
+
+- dependency updates
+
 ## Version 1.0.2
 
 - dependency updates
